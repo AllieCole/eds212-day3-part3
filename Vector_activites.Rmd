@@ -1,0 +1,33 @@
+---
+title: "Vector Activites"
+author: "Allie Cole"
+date: "8/4/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Creating new vectors 
+
+```{r}
+vec_a <- c(1, 6)
+
+vec_b <- c(2, 4)
+  
+```
+
+#### Using R to check our calculations made by hand 
+
+```{r}
+vec_c <- vec_a + vec_b #right!
+
+vec_d <- vec_b - vec_a #right!
+
+vec_e <- 4 * vec_a #right!
+
+vec_a %*% vec_b #right!
+
+```
+
